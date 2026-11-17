@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Font Origin Watch",
+  "version": "1.0.0",
+  "description": "Inspect font requests and their origins on the active tab.",
+  "permissions": ["webRequest", "storage", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_popup": "popup.html", "default_title": "Font Origin Watch"}
+}
